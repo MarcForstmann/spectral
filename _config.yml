@@ -4,10 +4,12 @@
 # Site settings
 title: Inside360 - Professionelle 360 Grad Video Produktion
 description: |
-  Professionelle 360° Panorama Video Produktion in 4k
+  Professional 360 degree
+  panoramic video production
 headline: Inside360
-subline:  |
-  Professionelle 360° Panorama Video Produktion in 4k
+subline: |
+  Professional 360 degree
+  panoramic video production
 owner: Inside360 # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: whats@inside360.tv
@@ -42,7 +44,7 @@ social:
   #linux:
   #bitbucket-square:
   #vk:
-  slack: inside360tv.slack.com
+  slack: http://inside360tv.slack.com
   #vine:
   #weixin:
   #yelp:
@@ -58,20 +60,3 @@ social:
 markdown: kramdown
 #sass:
 #  style: compressed
-
-# Language Settings
-t:
-  en:
-    home:
-      name: "Home"
-      url: "/"
-    generic:
-      name: "Generic"
-      url: "/generic/"
-  de:
-    home:
-      name: "Startseite"
-      url: "/startseite/"
-    generic:
-      name: "Generisch"
-      url: "/generisch/"
