@@ -4,17 +4,21 @@
 # Site settings
 title: Inside360 - Professionelle 360 Grad Video Produktion
 description: |
-  Professional 360 degree
+  Professional 360 degree \\
   panoramic video production
 headline: Inside360
 subline: |
-  Professional 360 degree
+  Professional 360 degree \\
   panoramic video production
 owner: Inside360 # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: whats@inside360.tv
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://beta.inside360.tv" # the base hostname & protocol for your site
+collections:
+  projects:
+    output: true
+    permalink: pretty
 social:
   twitter: https://twitter.com/inside360tv
   #github: https://github.com/<username>
@@ -58,5 +62,7 @@ social:
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
 #sass:
 #  style: compressed

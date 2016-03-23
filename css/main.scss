@@ -1478,9 +1478,15 @@ $baseurl: '{{ site.baseurl }}/images';
 
 /* Banner */
 
+	  @keyframes image_blur {
+		0% { filter: blur(20px);}
+	  100% { filter: blur(0px);}
+	}
+
 	#intro {
 	  position: fixed;
 	  z-index: -1;
+	  animation: image_blur 6s;
 	}
 
 	#banner {
@@ -1805,7 +1811,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.4))'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
