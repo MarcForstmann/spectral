@@ -5,3 +5,11 @@
 <!--<script src="js/CSS3DRenderer.js"></script>-->
 <!--<script src="js/Projector.js"></script>
 <script src="js/CanvasRenderer.js"></script>-->
+
+{% for js in page.customjs %}
+<script>
+    var material = new THREE.MeshBasicMaterial( {
+        map: new THREE.TextureLoader().load( '{{ js }}' )
+    } );
+</script>
+{% endfor %}

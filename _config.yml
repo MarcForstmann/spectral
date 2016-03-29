@@ -18,12 +18,11 @@ url: "http://beta.inside360.tv" # the base hostname & protocol for your site
 collections:
   projects:
     output: true
-    permalink: pretty
 social:
   twitter: https://twitter.com/inside360tv
   #github: https://github.com/<username>
   #linkedin-square: https://linkedin.com/in/<username>
-  facebook-official: https://facebook.com/<username>
+  facebook-official: https://facebook.com/inside360tv
   #google-plus-square: https://plus.google.com/u/0/+<username>
   email: mailto:whats@inside360.tv
   #flickr:
