@@ -8,8 +8,9 @@ description: |
   panoramic video production
 headline: Inside360
 subline: |
-  Professional 360 degree \\
-  panoramic video production
+  Immersive Film Making \\
+  360-degree Virtual Reality \\
+  conception and production
 owner: Inside360 # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: whats@inside360.tv
@@ -19,6 +20,7 @@ collections:
   projects:
     output: true
 social:
+  star-o: http://littlstar.com/inside360 #littlstar
   twitter: https://twitter.com/inside360tv
   #github: https://github.com/<username>
   #linkedin-square: https://linkedin.com/in/<username>
