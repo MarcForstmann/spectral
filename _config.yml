@@ -15,7 +15,7 @@ owner: Inside360 # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: whats@inside360.tv
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://beta.inside360.tv" # the base hostname & protocol for your site
+url: "http://inside360.tv" # the base hostname & protocol for your site
 collections:
   projects:
     output: true
@@ -67,3 +67,5 @@ kramdown:
   input: GFM
 #sass:
 #  style: compressed
+
+exclude: ['elements.html', 'generic.html']
