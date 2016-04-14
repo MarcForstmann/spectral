@@ -565,7 +565,7 @@ $baseurl: '{{ site.baseurl }}/images';
 	  width: 100%;
 	  height: auto;
 	}
-	.embed-container iframe {
+	.embed-container iframe, .embed-container #pano {
 
 	  position: absolute;
 	  top: 0;
