@@ -1,6 +1,8 @@
 # Jekyll ignores
 .sass-cache/
 _site
+images
+
 
 # Windows image file caches
 Thumbs.db
@@ -10,6 +12,17 @@ ehthumbs.db
 Desktop.ini
 
 # Recycle Bin used on file shares
+/assets/videopano/1860-sound.mp3
+/assets/videopano/1860-fans-cheering-3840_1920.jpg
+/assets/videopano/infront-sample_360-hd.webm
+/assets/videopano/infront-sample_360-sd.webm
+/assets/videopano/infront-sample_360-hd.mp4
+/assets/videopano/infront-sample_360-sd.mp4
+/assets/videopano/1860-sound.m4a
+/assets/videopano/infront-sample_360-4k.webm
+/assets/videopano/infront-sample_360-4k.mp4
+/assets/videopano/1860-fans-cheering-1024_512.jpg
+/assets/videopano/1860-fans-cheering-1920_960.jpg
 $RECYCLE.BIN/
 
 # Windows Installer files
