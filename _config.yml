@@ -68,4 +68,5 @@ kramdown:
 #sass:
 #  style: compressed
 
+include: ['.htaccess']
 exclude: ['elements.html', 'generic.html']

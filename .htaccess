@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{http_host} ^www.inside360.tv [nc]
+RewriteRule ^(.*)$ http://inside360.tv/$1 [r=301,nc]
+ErrorDocument 404 /404.html
