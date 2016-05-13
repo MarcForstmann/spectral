@@ -1,46 +1,122 @@
 ---
-title: Projects
 layout: landing
+title: Projects
+subline: Our own Inside360 studio projects for cinemas, live showcases and social media
 lang: en
 ref: projects
-menu:
+menu: main
 ---
 
-				<!-- CTA -->
-				<section id="cta" class="wrapper style4">
-					<div class="inner">
-						<header>
-							<h2>Arcue ut vel commodo</h2>
-							<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
-						</header>
-						<ul class="actions vertical">
-							<li><a href="#" class="button fit special">Activate</a></li>
-							<li><a href="#" class="button fit">Learn More</a></li>
-						</ul>
-					</div>
-				</section>
+<!-- Banner -->
+<div id="intro"></div>
+<section id="banner">
+	<div class="inner">
+		<h1>{{ site.headline }}</h1>
+		<p>{{ site.subline | markdownify}}</p>
+		<ul class="actions">
+			<li><a href="/showreel.html" target="_blank" class="button special">Show Me</a></li>
+		</ul>
+	</div>
+	<a href="#one" class="more scrolly">Learn More</a>
+</section>
 
-				<!-- Two -->
-					<section id="two" class="wrapper alt style2">
-						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2>Magna primis lobortis<br />
-								sed ullamcorper</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>Tortor dolore feugiat<br />
-								elementum magna</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-								<h2>Augue eleifend aliquet<br />
-								sed condimentum</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
-							</div>
-						</section>
-					</section>
+{% include 360_intro.html %}
+
+<!-- Two -->
+<section id="two" class="wrapper alt style2">
+	<section class="spotlight">
+		<div class="image" id="img1"><img src="images/kabine-tsv-1860-muenchen-360-small.jpg" alt="" /></div><div class="content">
+		<h2>Inside the Chamber of Horrors</h2>
+		<p>
+			<b>Field of use:</b> acquisition of sponsors, fan engagement, merchandising<br />
+			<b>Filming location:</b> Allianz Arena, Training TSV 1860<br />
+			<b>Conception:</b> Inside360, Infront<br />
+			<b>Written and directed by:</b> Inside360<br />
+			<b>Available on:</b>  <a href="/showreel.html" title="Inside360 1860 Showreel Film">Inside360.tv</a> <!--<a href="" title="">Oculus|Samsung Gear</a>, <a href="" title="">Vrideo</a>, <a href="" title="">YouTube</a>-->
+		</p>
+	</div>
+	</section>
+	<section class="spotlight">
+		<div class="image"><img src="images/snowboard-pano-360degree-small.jpg" alt="" /></div><div class="content">
+		<h2>The Funpark Experience</h2>
+		<p>
+			<b>Field of use:</b> SportScheck Events<br />
+			<b>Filming location:</b> Stubai Glacier<br />
+			<b>Conception:</b> Inside360<br />
+			<b>Written and directed by:</b> Inside360<br />
+			<b>Available on:</b>  Oculus|Samsung Gear, <a href="http://www.vrideo.com/watch/kiFtkyW" target="_blank" title="">Vrideo</a>, <a href="https://www.youtube.com/watch?v=vAIagrU8jns" target="_blank" title="">YouTube</a>
+		</p>
+	</div>
+	</section>
+	<section class="spotlight">
+		<div class="image"><img src="images/bmw-i8-ecar-demostration-host.jpg" alt="" /></div><div class="content">
+		<h2>The Wingsuit Experience<br />feat. Graham Dickinson</h2>
+		<p>
+			<b>Field of use:</b> BMW i8 demonstration including 360 degree presenter<br />
+			<b>Filming location:</b> streets of Munich during snowfall<br />
+			<b>Conception:</b> Inside360<br />
+			<b>Written and directed by:</b> Inside360<br />
+			<b>Available on:</b>  soon
+
+		</p>
+	</div>
+	</section>
+	<section class="spotlight">
+		<div class="image"><img src="images/brose-baskets-bamberg-screen.jpg" alt="" /></div><div class="content">
+		<h2>BROSE BASKETS<br />
+			PROJECT: BASKETBALL TEAMSPORTS </h2>
+		<p>
+			<b>Field of use:</b> acquisition of sponsors, fan engagement, social media<br />
+			<b>Filming location:</b> Europe League Brose Baskets Bamberg v CSKA Moscow<br />
+			<b>Conception:</b> Inside360, Brose Baskets<br />
+			<b>Written and directed by:</b> Inside360<br />
+			<b>Available on:</b>  soon
+
+		</p>
+	</div>
+	</section>
+	<section class="spotlight">
+		<div class="image"><img src="images/ferrari-458italia-racetrack-monza_360-small.jpg" alt="" /></div><div class="content">
+		<h2>Autodromo Nazionale Monza | MEVENTI<br />
+			PROJECT: FERRARI RACING F1 TRACK</h2>
+		<p>
+			<b>Field of use:</b> Erlebnisgeschenke<br />
+			<b>Filming location:</b> Formula 1 Race Track | Monza Italy<br />
+			<b>Conception:</b> Inside360, Infront<br />
+			<b>Written and directed by:</b> Inside360<br />
+			<b>Available on:</b>  Oculus|Samsung Gear, meventi
+
+		</p>
+	</div>
+	</section>
+</section>
+
+<!-- Three -->
+<section id="three" class="wrapper style3 special">
+	<div class="inner">
+		<header class="major">
+			<h2><span class="fa-fa-simplybuilt icon"> </span>Where can I watch this stuff?</h2>
+			<p>based on the basic Idea of the film a storyline is crafted according to the goals and objectives of the production</p>
+		</header>
+		<ul class="features">
+			<li class="icon fa-facebook-official">
+				<h3>Facebook</h3>
+			</li>
+			<li class="icon fa-youtube">
+				<h3>YouTube</h3>
+			</li>
+			<li class="icon fa-code">
+				<h3>Vrideo</h3>
+			</li>
+			<li class="icon fa-star-o">
+				<h3>Littlstar</h3>
+			</li>
+			<li class="icon fa-code">
+				<h3>Zeality</h3>
+			</li>
+			<li class="icon fa-star-o">
+				<h3>Reelhouse</h3>
+			</li>
+		</ul>
+	</div>
+</section>
