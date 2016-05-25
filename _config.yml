@@ -2,10 +2,9 @@
 #
 
 # Site settings
-title: Inside360 - Professionelle 360 Grad Video Produktion
+title: Inside360 - Immersive 360 degree film production
 description: |
-  Professional 360 degree \\
-  panoramic video production
+  Creating virtual reality experiences since 2014 | immersive 360 degree films | combining technical expertise and post production method to build VR film content
 headline: Inside360
 subline: |
   Immersive Film Making \\
@@ -29,7 +28,7 @@ social:
   email: mailto:whats@inside360.tv
   #flickr:
   #instagram:
-  youtube-square: https://www.youtube.com/c/Inside360tv
+  youtube-square: https://www.youtube.com/c/inside360tv
   #spotify:
   #stack-overflow:
   #vimeo:
@@ -70,3 +69,5 @@ kramdown:
 
 include: ['.htaccess']
 exclude: ['elements.html', 'generic.html']
+gems:
+  - jekyll-sitemap

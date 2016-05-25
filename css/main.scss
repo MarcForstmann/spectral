@@ -498,7 +498,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		&.style1 {
-			color: _palette(accent2, bg);
+			color: _palette(accent1, fg-bold);
 		}
 
 		&.style2 {
@@ -936,7 +936,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 			&:before {
 				display: block;
-				color: _palette(accent2, bg);
+				color: _palette(accent5, fg);
 				position: absolute;
 				left: 1.75em;
 				top: 2.75em;
@@ -1324,6 +1324,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 		&.style1 {
 			@include wrapper(accent1);
+		  	@include padding(3em, 0);
 		}
 
 		&.style2 {
