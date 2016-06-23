@@ -67,7 +67,7 @@ kramdown:
 #sass:
 #  style: compressed
 
-include: ['.htaccess']
+include: ['.htaccess', '.htpasswd']
 exclude: ['elements.html', 'generic.html']
 gems:
   - jekyll-sitemap
