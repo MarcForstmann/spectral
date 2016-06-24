@@ -14,10 +14,10 @@
 		<!-- include the videoplayer interface / skin (with VR support) -->
 		<include url="skin/videointerface.xml" />
 
-		<!-- include the loadingbar -->
+		<!-- include the loadingbar
 		<include url="skin/loadinganimation.xml" />
 		<include url="skin/loadingpercenttext.xml" />
-		<include url="skin/loadingbar.xml" />
+		<include url="skin/loadingbar.xml" />-->
 
 		<!-- include the videoplayer plugin -->
 		<plugin name="video"
