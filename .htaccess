@@ -4,14 +4,16 @@ RewriteRule ^(.*)$ http://inside360.tv/$1 [r=301,nc]
 RewriteRule ^index\.html$ / [R=301,L]
 ErrorDocument 404 /404.html
 
-AuthName "Ein Passwort wird benötigt"
+<FilesMatch "(projects/fanmeile.html)|(fanmeile-euro2016.html)">
+AuthName "Sie brauchen ein Passwort"
 AuthType Basic
 AuthUserFile /kunden/337804_80333/webseiten/inside360/wordpress/assets/.htpasswd
-
-<FilesMatch "fanmeile-euro2016.html">
 require valid-user
 </FilesMatch>
 
-<FilesMatch "antennebayern-bmwi8.html">
+<FilesMatch "(projects/atb-bmwi8.html)|(antennebayern-bmwi8.html)">
+AuthName "Sie brauchen ein Passwort"
+AuthType Basic
+AuthUserFile /kunden/337804_80333/webseiten/inside360/wordpress/assets/.htpasswd
 require valid-user
 </FilesMatch>
