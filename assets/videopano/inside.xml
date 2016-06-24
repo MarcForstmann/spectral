@@ -9,7 +9,7 @@
 		);
 	</action>
 
-	<scene name="videopano" title="Coca-Cola Fanmeile Euro2016- Immersive Panoramic VR Experience">
+	<scene name="videopano" title="Inside360 Showreel - Immersive Panoramic VR Experience | TSV 1860 Munich">
 
 		<!-- include the videoplayer interface / skin (with VR support) -->
 		<include url="skin/videointerface.xml" />
@@ -39,9 +39,9 @@
 
 		<!-- add the video sources and play the video -->
 		<action name="add_video_sources">
-			videointerface_addsource('1024x512', '%CURRENTXML%/media/fanmeile-berlin-euro2016-2-sd.mp4|%CURRENTXML%/media/fanmeile-berlin-euro2016-2-sd.webm|%CURRENTXML%/media/fanmeile-sound.mp3', '%CURRENTXML%/media/fanmeile-euro2016-1024_512.jpg');
-			videointerface_addsource('1920x960', '%CURRENTXML%/media/fanmeile-berlin-euro2016-2-hd.mp4|%CURRENTXML%/media/fanmeile-berlin-euro2016-2-hd.webm|%CURRENTXML%/media/fanmeile-sound.mp3', '%CURRENTXML%/media/fanmeile-euro2016-1920_960.jpg');
-			videointerface_addsource('3840x1920', '%CURRENTXML%/media/fanmeile-berlin-euro2016-2-4k.mp4|%CURRENTXML%/media/fanmeile-berlin-euro2016-2-4k.webm|%CURRENTXML%/media/fanmeile-sound.mp3', '%CURRENTXML%/media/fanmeile-euro2016-3840_1920.jpg');
+			videointerface_addsource('1024x512', '%CURRENTXML%/media/infront-sample_360-sd.mp4|%CURRENTXML%/media/infront-sample_360-sd.webm|%CURRENTXML%/media/1860-sound.mp3', '%CURRENTXML%/media/1860-fans-cheering-1024_512.jpg');
+			videointerface_addsource('1920x960', '%CURRENTXML%/media/infront-sample_360-hd.mp4|%CURRENTXML%/media/infront-sample_360-hd.webm|%CURRENTXML%/media/1860-sound.mp3', '%CURRENTXML%/media/1860-fans-cheering-1920_960.jpg');
+			videointerface_addsource('3840x1920', '%CURRENTXML%/media/infront-sample_360-4k.mp4|%CURRENTXML%/media/infront-sample_360-4k.webm|%CURRENTXML%/media/1860-sound.mp3', '%CURRENTXML%/media/1860-fans-cheering-3840_1920.jpg');
 
 			if(device.ios,
 			<!-- iOS Safari has a very slow 'video-to-webgl-texture' transfer, therefore use a low-res video by default -->
