@@ -39,9 +39,9 @@
 
 		<!-- add the video sources and play the video -->
 		<action name="add_video_sources">
-			videointerface_addsource('1024x512', '%CURRENTXML%/media/fanmeile-berlin-euro2016-2-sd.mp4|%CURRENTXML%/media/fanmeile-berlin-euro2016-2-sd.webm|%CURRENTXML%/media/fanmeile-sound.mp3', '%CURRENTXML%/media/fanmeile-euro2016-1024_512.jpg');
-			videointerface_addsource('1920x960', '%CURRENTXML%/media/fanmeile-berlin-euro2016-2-hd.mp4|%CURRENTXML%/media/fanmeile-berlin-euro2016-2-hd.webm|%CURRENTXML%/media/fanmeile-sound.mp3', '%CURRENTXML%/media/fanmeile-euro2016-1920_960.jpg');
-			videointerface_addsource('3840x1920', '%CURRENTXML%/media/fanmeile-berlin-euro2016-2-4k.mp4|%CURRENTXML%/media/fanmeile-berlin-euro2016-2-4k.webm|%CURRENTXML%/media/fanmeile-sound.mp3', '%CURRENTXML%/media/fanmeile-euro2016-3840_1920.jpg');
+			videointerface_addsource('1024x512', '%CURRENTXML%/media/fanmeile-euro2016-berlin-3-sd.mp4|%CURRENTXML%/media/fanmeile-euro2016-berlin-3-sd.webm|%CURRENTXML%/media/fanmeile-sound.mp3', '%CURRENTXML%/media/fanmeile-euro2016-1024_512.jpg');
+			videointerface_addsource('1920x960', '%CURRENTXML%/media/fanmeile-euro2016-berlin-3-hd.mp4|%CURRENTXML%/media/fanmeile-euro2016-berlin-3-hd.webm|%CURRENTXML%/media/fanmeile-sound.mp3', '%CURRENTXML%/media/fanmeile-euro2016-1920_960.jpg');
+			videointerface_addsource('3840x1920', '%CURRENTXML%/media/fanmeile-euro2016-berlin-3-4k.mp4|%CURRENTXML%/media/fanmeile-euro2016-berlin-3-4k.webm|%CURRENTXML%/media/fanmeile-sound.mp3', '%CURRENTXML%/media/fanmeile-euro2016-3840_1920.jpg');
 
 			if(device.ios,
 			<!-- iOS Safari has a very slow 'video-to-webgl-texture' transfer, therefore use a low-res video by default -->
