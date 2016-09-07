@@ -23,7 +23,7 @@ bitmovin: true
                startupMode       : bitdash.VR.STARTUP_MODE.MONO_2D,
                startPosition     : 180,
                initialRotation   : true,
-               initialRotateRate : 0.025
+               initialRotateRate : 0.01
             }
         }
     };
