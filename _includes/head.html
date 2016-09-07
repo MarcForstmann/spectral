@@ -41,6 +41,10 @@
     {% include head_scripts.html %}
   {% endif %}
 
+  {% if page.bitmovin %}
+    <script type="text/javascript" src="https://bitmovin-a.akamaihd.net/bitmovin-player/stable/5/bitdash.min.js"></script>"
+  {% endif %}
+
   {% if page.head_image %}
     <style type="text/css">
       #main > header {
