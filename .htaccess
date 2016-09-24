@@ -4,6 +4,8 @@ RewriteRule ^(.*)$ http://inside360.tv/$1 [r=301,nc]
 RewriteRule ^index\.html$ / [R=301,L]
 ErrorDocument 404 /404.html
 
+Redirect /intro http://inside360.tv/showreel.html
+
 <FilesMatch "(projects/fanmeile.html)|(fanmeile-euro2016.html)">
 AuthName "Sie brauchen ein Passwort"
 AuthType Basic
