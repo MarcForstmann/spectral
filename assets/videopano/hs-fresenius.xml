@@ -9,7 +9,7 @@
 		);
 	</action>
 
-	<scene name="videopano" title="Coca-Cola Fanmeile Euro2016- Immersive Panoramic VR Experience">
+	<scene name="videopano" title="HS Fresenius - München 360 - Schau in Deine Zukunft">
 
 		<!-- include the videoplayer interface / skin (with VR support) -->
 		<include url="skin/videointerface.xml" />
