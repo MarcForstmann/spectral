@@ -39,9 +39,9 @@
 
 		<!-- add the video sources and play the video -->
 		<action name="add_video_sources">
-			videointerface_addsource('1024x512', '%CURRENTXML%/media/hochschule-fresenius-muc_360.sd.mp4|%CURRENTXML%/media/hochschule-fresenius-muc_360.sd.webm|%CURRENTXML%/media/fresenius-sound.mp3', '%CURRENTXML%/media/fresenius-1024_512.jpg');
+			videointerface_addsource('1024x512', '%CURRENTXML%/media/hochschule-fresenius-muc_360.sd.mp4|%CURRENTXML%/media/hochschule-fresenius-muc_360.sd.webm|%CURRENTXML%/media/fresenius-sound.mp3', '%CURRENTXML%/media/fresenius-3840_1920.jpg');
 			videointerface_addsource('1920x960', '%CURRENTXML%/media/hochschule-fresenius-muc_360.hd.mp4|%CURRENTXML%/media/hochschule-fresenius-muc_360.hd.webm|%CURRENTXML%/media/fresenius-sound.mp3', '%CURRENTXML%/media/fresenius-1920_960.jpg');
-			videointerface_addsource('3840x1920', '%CURRENTXML%/media/hochschule-fresenius-muc_360.4k.mp4|%CURRENTXML%/media/hochschule-fresenius-muc_360.4k.webm|%CURRENTXML%/media/fresenius-sound.mp3', '%CURRENTXML%/media/fresenius-3840_1920.jpg');
+			videointerface_addsource('3840x1920', '%CURRENTXML%/media/hochschule-fresenius-muc_360.4k.mp4|%CURRENTXML%/media/hochschule-fresenius-muc_360.4k.webm|%CURRENTXML%/media/fresenius-sound.mp3', '%CURRENTXML%/media/fresenius-1024_512.jpg');
 
 			if(device.ios,
 			<!-- iOS Safari has a very slow 'video-to-webgl-texture' transfer, therefore use a low-res video by default -->

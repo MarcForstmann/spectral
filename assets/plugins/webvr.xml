@@ -34,6 +34,7 @@
 	
 	<!-- a custom xml data structure with the supported VR headsets -->
 	<vrheadsets>
+		<headset name="hsf" caption="Campus 360 VR" overlap="1.00" fov="96.0"  dist="1.00" dist2="1|0|0|0" ca="0.060" vig="100" />
 		<headset name="cb1" caption="Cardboard A"   overlap="1.10" fov="96.0"  dist="1.00" dist2="1|0|0|0" ca="0.000" vig="100" />
 		<headset name="cb2" caption="Cardboard B"   overlap="1.00" fov="96.0"  dist="0.60" dist2="1|0|0|0" ca="0.000" vig="100" />
 		<headset name="gvr" caption="GearVR"        overlap="1.00" fov="112.0" dist="0.95" dist2="1|0|0|0" ca="0.090" vig="100" />
