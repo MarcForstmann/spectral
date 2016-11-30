@@ -68,6 +68,6 @@ kramdown:
 #  style: compressed
 
 include: ['.htaccess', '.htpasswd']
-exclude: ['elements.html', 'generic.html', 'assets/videopano/media']
+exclude: ['elements.html', 'generic.html', 'assets/kp/videopano/media']
 gems:
   - jekyll-sitemap
