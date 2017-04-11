@@ -9,6 +9,7 @@ Header add Access-Control-Allow-Methods "GET,POST,OPTIONS,DELETE,PUT"
 Header add Access-Control-Allow-Headers "Content-Type"
 
 Redirect /intro http://inside360.tv/showreel.html
+Redirect /laureates http://inside360.tv/projects/laureates-intro.html
 
 <FilesMatch "(projects/fanmeile.html)|(fanmeile-euro2016.html)">
 AuthName "Sie brauchen ein Passwort"
