@@ -39,9 +39,9 @@
 
 		<!-- add the video sources and play the video -->
 		<action name="add_video_sources">
-			videointerface_addsource('1024x512', '%CURRENTXML%/media/laureates.sd.mp4|%CURRENTXML%/media/laureates.sd.webm|%CURRENTXML%/media/laureates.sound.mp3', '%CURRENTXML%/media/zm-i-1024_512.jpg');
-			videointerface_addsource('1920x960', '%CURRENTXML%/media/laureates.hd.mp4|%CURRENTXML%/media/laureates.hd.webm|%CURRENTXML%/media/laureates.sound.mp3', '%CURRENTXML%/media/zm-i-1920_960.jpg');
-			videointerface_addsource('3840x1920', '%CURRENTXML%/media/laureates.4k.mp4|%CURRENTXML%/media/laureates.4k.webm|%CURRENTXML%/media/laureates.sound.mp3', '%CURRENTXML%/media/zm-i-3840_1920.jpg');
+			videointerface_addsource('1024x512', '%CURRENTXML%/media/laureates.sd.mp4|%CURRENTXML%/media/laureates.sd.webm|%CURRENTXML%/media/laureates.sound.mp3', '%CURRENTXML%/media/inside-1024_512.jpg');
+			videointerface_addsource('1920x960', '%CURRENTXML%/media/laureates.hd.mp4|%CURRENTXML%/media/laureates.hd.webm|%CURRENTXML%/media/laureates.sound.mp3', '%CURRENTXML%/media/inside-1920_960.jpg');
+			videointerface_addsource('3840x1920', '%CURRENTXML%/media/laureates.4k.mp4|%CURRENTXML%/media/laureates.4k.webm|%CURRENTXML%/media/laureates.sound.mp3', '%CURRENTXML%/media/inside-3840_1920.jpg');
 
 			if(device.ios,
 			<!-- iOS Safari has a very slow 'video-to-webgl-texture' transfer, therefore use a low-res video by default -->
