@@ -1,6 +1,6 @@
 ---
 title: |
-  ✖ Fanmeile Euro2016
+  ✖ Fanmeile Login
 layout: page
 image_path: "../images/fanmeile-euro2016-berlin-coca-cola.jpg"
 menu: main
