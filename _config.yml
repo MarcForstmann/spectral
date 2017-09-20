@@ -15,7 +15,10 @@ first_published: 2016 # if migrating another site, the year of your first publis
 email: whats@inside360.tv
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://inside360.tv" # the base hostname & protocol for your site
+permalink: /:categories/:year-:month/:title.html
 collections:
+  gallery:
+    output: true
   projects:
     output: true
 social:

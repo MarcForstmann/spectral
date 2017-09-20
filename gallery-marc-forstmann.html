@@ -1,0 +1,50 @@
+---
+layout: page_projects
+title: Image Gallery Marc Forstmann
+seo_title: Press Images Marc Forstmann - Inside360tv
+subline: Press Images Marc Forstmann
+lang: en
+ref: gallery-mf
+menu:
+head_image: jump-frame-compressor.jpg
+---
+
+<section class="wrapper style5">
+    <div class="inner">
+        <section>
+            <h2>Marc Forstmann</h2>
+            {% assign marc_f = site.gallery | where: "category", "marc" %}
+            <ul class="actions row uniform 50%">
+                {% for image in marc_f %}
+                <li class="4u">
+                    <span class="image fit">
+                        <img src="{{ site.baseurl }}/images/{{ image.thumbnail }}" alt="" />
+                    </span>
+                    <header>
+                        <h5>{{ image.title }}</h5>
+                        <p>{{ image.date || date_to_long_string }}</p>
+                    </header>
+                    <a class="button small special icon fa-download" download href="{{ site.baseurl }}/images/{{ image.image_path }}">Download</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+    </div>
+</section>
+
+<!-- Three -->
+<section id="three" class="wrapper style3">
+    <div class="inner">
+        <header>
+            <h4>Press Contact</h4>
+        </header>
+        <span class="image left"><img src="images/britta-400x400.jpg" alt="" /></span>
+        <span>Corporate Communications</span><br />
+        <h3>Britta Fey-Kögl</h3>
+        <p>
+            <span class="icon fa-phone"> </span>+49 8807 214 30-11<br />
+            <span class="icon fa-envelope"> </span>presse@inside360.tv<br />
+            <span class="icon fa-map-marker"> </span>Kistlerhofstr. 70/Geb. 88, 81379 München
+        </p>    
+    </div>
+</section>

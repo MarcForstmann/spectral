@@ -1,5 +1,6 @@
 RewriteEngine On
 RewriteCond %{http_host} ^www.inside360.tv [nc]
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ http://inside360.tv/$1 [r=301,nc]
 RewriteRule ^index\.html$ / [R=301,L]
 ErrorDocument 404 /404.html
@@ -14,6 +15,8 @@ Redirect /hlcruises http://inside360.tv/projects/hlcruises.html
 Redirect /hlcruises360 http://inside360.tv/projects/hlcruises.html
 Redirect /zm-i.html http://inside360.tv/projects/zm-i.html
 Redirect /hs-fresenius.html http://inside360.tv/projects/hs-fresenius.html
+Redirect /press$ http://inside360.tv/press.html
+Redirect /contact http://inside360.tv/contact.html
 
 <FilesMatch "(projects/fanmeile.html)|(fanmeile-euro2016.html)">
 AuthName "Sie brauchen ein Passwort"
@@ -23,6 +26,13 @@ require valid-user
 </FilesMatch>
 
 <FilesMatch "(projects/atb-bmwi8.html)|(antennebayern-bmwi8.html)">
+AuthName "Sie brauchen ein Passwort"
+AuthType Basic
+AuthUserFile /kunden/337804_80333/webseiten/inside360/wordpress/assets/.htpasswd
+require valid-user
+</FilesMatch>
+
+<FilesMatch "(press.html)|(press-overview.html)">
 AuthName "Sie brauchen ein Passwort"
 AuthType Basic
 AuthUserFile /kunden/337804_80333/webseiten/inside360/wordpress/assets/.htpasswd

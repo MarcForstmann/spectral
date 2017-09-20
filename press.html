@@ -1,0 +1,106 @@
+---
+layout: page_projects
+title: Press Relations
+seo_title: Press Relations and News - Inside360tv
+subline: News and Photos and Videos
+excerpt: Film making projects | Testing the boundaries of Virtual Reality and 360 degree immersive experiences
+lang: en
+ref: press
+menu: main
+head_image: jump-frame-compressor.jpg
+---
+
+<section class="wrapper style5">
+    <div class="inner">
+        <section>
+            <h2>Pressebereich: Hier gibt’s frischen Lesestoff für Berichterstatter</h2>
+            <p>Journalisten, Bloggern und anderen Interessierten präsentieren wir hier die inside360 GmbH und die Menschen hinter dem Unternehmen ebenso wie Informationen zu aktuellen und außergewöhnlichen Projekten aus der Welt der virtuellen Realität. </p>
+            <p>Also jede Menge frischer Lesestoff für Berichterstatter.</p>
+            <p>Und für alle die, die noch nichts von uns gehört haben (was uns wundern würde, wenn Sie nun schon einmal hier sind), gibt es die Kurzfassung:</p>
+            <blockquote>Wir sind eines der reichweitenstärksten VR-Unternehmen und gelten europaweit als Vorreiter und Innovationstreiber im Bereich VR-Film. Über 60 Mio. Menschen haben unsere Filme bereits online gesehen – und ihre Zahl steigt stündlich. Allein mit unserer ersten Horrorfilm-Produktion haben wir innerhalb eines Jahres über 40 Mio. Views auf Facebook erzielt und damit weltweit enorme Bekanntheit erlangt - ganz ohne Media-Ausgaben, einfach mit gutem Content.</blockquote>
+            <p>Über eigene Projekte und das Lizenzgeschäft hinaus beschäftigen wir uns mit Full-Service-Filmproduktionen, der Entwicklung von individuellen VR-Applikationen und der Produktion von VR-Headsets. Ach ja, und unsere Kamera-Technik entwickeln wir auch selbst.</p>
+            <a class="button small special icon fa-download" download href="{{ site.baseurl }}/assets/download/basic-press-kit_deutsch-inside360.zip">Basic Presskit deutsch</a> <a class="button small special icon fa-download" download href="{{ site.baseurl }}/assets/download/basic-press-kit_english-inside360.zip">Basic Presskit english</a>
+            <hr />
+        </section>
+        <section>
+            <h2>News</h2>
+            <ul class="actions row uniform 50%">
+                {% for post in site.categories.press limit: 3 %}
+                <li class="4u">
+                    <a href="{{ post.url }}">
+                                <span class="image fit">
+                                    <img src="{{ site.baseurl }}/images/{{ post.thumbnail }}" alt="" />
+                                </span>
+                    </a>
+                    <header>
+                        <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
+                        <p>{{ post.date || date_to_long_string }}</p>
+                    </header>
+                    <p>{{ post.description }}</p>
+                    <a class="button small special icon fa-download" download href="{{ site.baseurl }}/assets/download/{{ post.download }}">Download</a>
+                </li>
+                {% endfor %}
+            </ul>
+            <p>&nbsp;</p>
+            <a class="icon fa-arrow-circle-o-right" href="{{ site.baseurl }}/press-overview.html"> All Press Releases</a>
+        </section>
+        <hr />
+    </div>
+</section>
+<!-- Two -->
+<section id="two" class="wrapper alt style5">
+    <div class="inner">
+        <section>
+            <h2>Photos and Videos</h2>
+        </section>
+    </div>
+    <section class="spotlight">
+        <div class="image" id="img1">
+            <a href="{{ site.baseurl }}/gallery-marc-forstmann.html">
+                <img src="images/wingsuit-compressor.jpg" alt="" />
+                <div class="overlayfix">
+                    <div class="thumb-info">
+                        <h3>Marc Forstmann</h3>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="image">
+            <a href="{{ site.baseurl }}/gallery-marc-forstmann.html">
+                <img src="images/wingsuit-compressor.jpg" alt="" />
+                <div class="overlayfix">
+                    <div class="thumb-info">
+                        <h3>Marc Forstmann</h3>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="image">
+            <a href="{{ site.baseurl }}/gallery-marc-forstmann.html">
+                <img src="images/wingsuit-compressor.jpg" alt="" />
+                <div class="overlayfix">
+                    <div class="thumb-info">
+                        <h3>Marc Forstmann</h3>
+                    </div>
+                </div>
+            </a>
+        </div>    
+    </section>
+</section>
+
+<!-- Three -->
+<section id="three" class="wrapper style3">
+    <div class="inner">
+        <header>
+            <h4>Press Contact</h4>
+        </header>
+        <span class="image left"><img src="images/britta-400x400.jpg" alt="Pressemitarbeiterin" width="180" /></span>
+        <span>Corporate Communications</span><br />
+        <h3>Britta Fey-Kögl</h3>
+        <p>
+            <span class="icon fa-phone"> </span>+49 8807 214 30-11<br />
+            <span class="icon fa-envelope"> </span>presse@inside360.tv<br />
+            <span class="icon fa-map-marker"> </span>Kistlerhofstr. 70/Geb. 88, 81379 München
+        </p>    
+    </div>
+</section>

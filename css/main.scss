@@ -637,6 +637,20 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 
+		&.iconed {
+		  cursor: default;
+		  list-style: none;
+		  padding-left: 0;
+  
+		  li {
+			padding: 0 1em 0 .5em;
+  
+			&:last-child {
+			  padding-right: 0 !important;
+			}
+		  }
+		}
+
 		&.actions {
 			cursor: default;
 			list-style: none;
@@ -1030,6 +1044,24 @@ $baseurl: '{{ site.baseurl }}/images';
 			  }
 			  h3 {
 				margin: 0;
+			  }
+			  p {
+				margin: 0 0 1em 0;
+			  }
+			}
+			.overlayfix {
+			  position: absolute;
+			  top: 0;
+			  text-align: center;
+			  width: 100%;
+			  height: 100%;
+			  .thumb-info {
+				top: 50%;
+				position: relative;
+			  }
+			  h3 {
+				margin: 0;
+				color: _palette(accent1, fg-bold);
 			  }
 			  p {
 				margin: 0 0 1em 0;
@@ -1781,7 +1813,9 @@ $baseurl: '{{ site.baseurl }}/images';
 		> header {
 			@include padding(12em, 0);
 			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/1860-fans-cheering-1-compressor.jpg")'));
-		  background: no-repeat fixed center center;
+		  background-repeat: no-repeat;
+		  background-attachment: fixed;
+		  background-position: center;
 		  background-size: cover;
 		  text-align: center;
 		  background-attachment: scroll;
