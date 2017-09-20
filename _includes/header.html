@@ -1,6 +1,6 @@
 <!-- Header -->
 <header id="header"{% if page.layout == 'landing' %} class="alt"{% endif %}>
-  <span class="intro"><a href="{{ site.baseurl }}/index.html" title="Homepage - {{ site.headline }}"><img src="../images/logo-inside360tv-small.png" width="100px" title="Logo {{ site.headline }}" alt="Logo {{ site.headline }}"></a></span>
+  <span class="intro"><a href="{{ site.baseurl }}/index.html" title="Homepage - {{ site.headline }}"><img src="{{ site.baseurl }}/images/logo-inside360tv-small.png" width="100px" title="Logo {{ site.headline }}" alt="Logo {{ site.headline }}"></a></span>
   <nav id="nav">
     <ul>
       <li class="special">
@@ -10,12 +10,12 @@
             <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
             {% for my_page in site.pages %}
             {% if my_page.menu == 'main' %}
-            <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+            <li><a href="{{ my_page.url | prepend: site.baseurl }}.html">{{ my_page.title }}</a></li>
             {% endif %}
             {% endfor %}
             {% for my_page in site.projects %}
             {% if my_page.menu == 'main' %}
-            <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+            <li><a href="{{ my_page.url | prepend: site.baseurl }}.html">{{ my_page.title }}</a></li>
             {% endif %}
             {% endfor %}
             <!--<li><a href="{{ "/feed.xml" | prepend: site.baseurl }}"

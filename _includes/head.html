@@ -45,10 +45,10 @@
   {% if page.head_image %}
     <style type="text/css">
       #main > header {
-        background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/{{ page.head_image }}.jpg");
-        background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/{{ page.head_image }}.jpg");
-        background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/{{ page.head_image }}.jpg");
-        background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/{{ page.head_image }}.jpg");}
+        background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ site.baseurl }}/images/{{ page.head_image }}");
+        background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ site.baseurl }}/images/{{ page.head_image }}");
+        background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ site.baseurl }}/images/{{ page.head_image }}");
+        background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ site.baseurl }}/images/{{ page.head_image }}");}
     </style>
   {% endif %}
   <script>
