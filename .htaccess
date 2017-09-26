@@ -17,6 +17,7 @@ Redirect /zm-i.html http://inside360.tv/projects/zm-i.html
 Redirect /hs-fresenius.html http://inside360.tv/projects/hs-fresenius.html
 Redirect /press$ http://inside360.tv/press.html
 Redirect /contact http://inside360.tv/contact.html
+Redirect /telefonica http://inside360.tv/telefonica.html
 
 <FilesMatch "(projects/fanmeile.html)|(fanmeile-euro2016.html)">
 AuthName "Sie brauchen ein Passwort"
