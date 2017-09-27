@@ -2,14 +2,14 @@
 title: Zukunft der Virtuellen Realität
 subline: Interview mit Marc Forstmann über seine Erfahrungen und Learnings als Gründer und das "Abenteuer Entrepreneurship"
 layout: post
-date: 2017-08-17
+date: 2017-09-10
 categories: press
 menu:
 sitemap: true
 head_image: marc-forstmann_5-head.jpeg
 thumbnail: marc-forstmann_5-thumb.jpeg
 description: Interview mit Marc Forstmann über seine Erfahrungen und Learnings als Gründer und das "Abenteuer Entrepreneurship".
-download: marc-forstmann_5.jpg
+download: interview-zukunft-VR.zip
 ---
 
 ### „Ob VR ein langfristiger Erfolg wird, hängt von gutem Content ab“ 

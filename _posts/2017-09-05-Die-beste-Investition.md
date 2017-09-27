@@ -1,15 +1,15 @@
 ---
 title: Das Abenteuer Entrepreneurship
-subline: Interview mit Marc Forstmann über die Einsatzmöglichkeitenund die Zukunft der Virtual und Augmented Reality im Unternehmen
+subline: Interview mit Marc Forstmann über die Einsatzmöglichkeiten und die Zukunft der Virtual und Augmented Reality im Unternehmen
 layout: post
-date: 2017-08-17
+date: 2017-09-05
 categories: press
 menu:
 sitemap: true
 head_image: marc-forstmann_6-head.jpeg
 thumbnail: marc-forstmann_6-thumb.jpeg
 description: Interview mit Marc Forstmann über die Einsatzmöglichkeitenund die Zukunft der Virtual und Augmented Reality im Unternehmen.
-download: marc-forstmann_6.jpg
+download: interview-gruendung-inside360.zip
 ---
 ### „Ich möchte immer ein Lernender bleiben“
 München, im Juli 2017.

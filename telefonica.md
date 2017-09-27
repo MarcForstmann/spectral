@@ -9,7 +9,7 @@ sitemap: false
 	<noscript><table style="width:100%;height:100%;"><tr style="vertical-align:middle;text-align:center;"><td>ERROR:<br><br>Javascript not activated<br><br></td></tr></table></noscript>
 	<dl8-hub display-mode="fullscreen" width="100%" height="100%" room-src="images/telefonica-0008.jpg" poster="images/telefonica-start-thumbnail.jpg">
       <dl8-hub-content>
-        <dl8-external-content class="external" url="javascript:void(0);" poster="images/thumbnail-coming_soon2.jpg" title="Digital Innovation Day 2017" x-dl8-attr-category="Video"></dl8-external-content>
+        <dl8-external-content class="external" url="javascript:void(0);" poster="images/thumbnail-coming_soon2.jpg" title="Coming Soon - Digital Innovation Day 2017" x-dl8-attr-category="Video"></dl8-external-content>
         <!-- <dl8-video format="MONO_360" preload="auto" title="Digital Innovation Day 2017" author="inside360" poster="images/telefonica-video-thumbnail.jpg" x-dl8-attr-category="Video">
             <source src="assets/films/The-Drop_hd.mp4" type="video/mp4" quality="960p" />
             <source src="assets/films/The-Drop_hd.webm" type="video/webm" quality="960p" />
