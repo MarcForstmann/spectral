@@ -8,7 +8,7 @@ menu:
 sitemap: true
 head_image: marc-forstmann_1-head.jpeg
 thumbnail: marc-forstmann_1-thumb.jpeg
-description: The moment he tried some VR goggles at a street stall in Istanbul, he saw for the first time the future potential of this technology.
+description: The moment he tried some VR goggles at a street stall in Istanbul, he saw the future potential of this technology.
 download: vita-marc-forstmann-english.zip
 ---
 

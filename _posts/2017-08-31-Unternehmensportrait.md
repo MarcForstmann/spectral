@@ -8,7 +8,7 @@ menu:
 sitemap: true
 head_image: press-logo-head.jpg
 thumbnail: press-logo-inside360.jpg
-description: Die inside360 GmbH ist eines der reichweitenstärksten VR-Unternehmen weltweit und gilt als Vorreiter im Bereich VR-Film.
+description: Die inside360 GmbH ist eines der reichweitenstärksten VR-Unternehmen und gilt als Vorreiter im Bereich VR-Film.
 download: unternehmensportrait-deutsch-inside360.zip
 ---
 

@@ -8,7 +8,7 @@ menu:
 sitemap: true
 head_image: marc-forstmann_1-head.jpeg
 thumbnail: marc-forstmann_1-thumb.jpeg
-description: Als Marc Forstmann in Istanbul an einem Straßenstand zum ersten Mal eine VR-Brille ausprobiert, ist ihm sofort klar, dass das die Zukunft ist.
+description: Als Marc Forstmann am Straßenstand in Istanbul eine VR-Brille ausprobiert, ist ihm sofort klar, dass das die Zukunft ist.
 download: vita-marc-forstmann-deutsch.zip
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Zukunft der Virtuellen Realität
-subline: Interview mit Marc Forstmann über seine Erfahrungen und Learnings als Gründer und das "Abenteuer Entrepreneurship"
+subline: Interview mit Marc Forstmann über die Einsatzmöglichkeiten und die Zukunft der Virtual und Augmented Reality im Unternehmen
 layout: post
 date: 2017-09-10
 categories: press
@@ -8,7 +8,7 @@ menu:
 sitemap: true
 head_image: marc-forstmann_5-head.jpeg
 thumbnail: marc-forstmann_5-thumb.jpeg
-description: Interview mit Marc Forstmann über seine Erfahrungen und Learnings als Gründer und das "Abenteuer Entrepreneurship".
+description: Interview mit Marc Forstmann über die Einsatzmöglichkeiten und Zukunft der VR und AR im Unternehmen.
 download: interview-zukunft-VR.zip
 ---
 
