@@ -1,13 +1,11 @@
 RewriteEngine On
-RewriteCond %{http_host} ^www.inside360.tv [nc]
+CheckCaseOnly On
+CheckSpelling On
+RewriteCond %{http_host} ^www.inside360.tv [NC]
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ http://inside360.tv/$1 [r=301,nc]
-RewriteRule ^index\.html$ / [R=301,L]
+RewriteRule ^(.*)$ http://inside360.tv/$1 [r=301,NC]
+RewriteRule ^index\.html$ / [R=301,L,NC]
 ErrorDocument 404 /404.html
-
-Header add Access-Control-Allow-Origin "*"
-Header add Access-Control-Allow-Methods "GET,POST,OPTIONS,DELETE,PUT"
-Header add Access-Control-Allow-Headers "Content-Type"
 
 Redirect /intro http://inside360.tv/showreel.html
 Redirect /laureates http://inside360.tv/projects/laureates-intro.html
@@ -18,6 +16,8 @@ Redirect /hs-fresenius.html http://inside360.tv/projects/hs-fresenius.html
 Redirect /press$ http://inside360.tv/press.html
 Redirect /contact http://inside360.tv/contact.html
 Redirect /telefonica http://inside360.tv/telefonica.html
+Redirect /gottesdienst https://www.omnivirt.com/view/15030
+Redirect /Gottesdienst https://www.omnivirt.com/view/15030
 
 <FilesMatch "(projects/fanmeile.html)|(fanmeile-euro2016.html)">
 AuthName "Sie brauchen ein Passwort"
