@@ -16,8 +16,8 @@ Redirect /hs-fresenius.html http://inside360.tv/projects/hs-fresenius.html
 Redirect /press$ http://inside360.tv/press.html
 Redirect /contact http://inside360.tv/contact.html
 Redirect /telefonica http://inside360.tv/telefonica.html
-Redirect /gottesdienst https://www.omnivirt.com/view/15030
-Redirect /Gottesdienst https://www.omnivirt.com/view/15030
+Redirect /gottesdienst http://inside360.tv/gottesdienst.html
+Redirect /Gottesdienst http://inside360.tv/gottesdienst.html
 
 <FilesMatch "(projects/fanmeile.html)|(fanmeile-euro2016.html)">
 AuthName "Sie brauchen ein Passwort"
