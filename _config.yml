@@ -72,5 +72,5 @@ kramdown:
 
 include: ['.htaccess', '.htpasswd']
 exclude: ['assets/kp/videopano/media', 'showreel_old.html', 'generic.html']
-gems:
+plugins:
   - jekyll-sitemap
