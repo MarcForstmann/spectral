@@ -7,6 +7,8 @@ RewriteRule ^(.*)$ http://inside360.tv/$1 [r=301,NC]
 RewriteRule ^index\.html$ / [R=301,L,NC]
 ErrorDocument 404 /404.html
 
+# only edit below this line
+
 Redirect /intro http://inside360.tv/showreel.html
 Redirect /laureates http://inside360.tv/projects/laureates-intro.html
 Redirect /hlcruises http://inside360.tv/projects/hlcruises.html
@@ -20,6 +22,8 @@ Redirect /gottesdienst http://inside360.tv/gottesdienst.html
 Redirect /Gottesdienst http://inside360.tv/gottesdienst.html
 Redirect /soccer http://inside360.tv/soccer.html
 Redirect /Soccer http://inside360.tv/soccer.html
+
+# only edit above this line
 
 <FilesMatch "(projects/fanmeile.html)|(fanmeile-euro2016.html)">
 AuthName "Sie brauchen ein Passwort"
