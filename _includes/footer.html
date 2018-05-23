@@ -16,7 +16,7 @@
   <ul class="copyright">
     <li>&copy; {% assign thisyear = site.time | date: "%Y" %}
     {% if site.first_published %}
-      {% capture diff %}{{ site.first_published | minus:thisyear }}{% endcapture %}
+      {% capture diff %}{{ site.first_published }}{% endcapture %}
       {% if diff contains '-' %}{{ site.first_published }},{% endif %}
     {% endif %}
     {{ thisyear }}
